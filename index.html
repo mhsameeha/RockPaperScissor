@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="message"><b> Rock Paper Scissor</b></h1>
+        <div id="scores">   <div id= "player1Scoreboard" class="scores">Score : <span id="Mark1">0</span></div> 
+        <div id="player2Scoreboard" class="scores">Score : <span id="Mark2" >0</span></div> </div> 
+
+            <div id="board">   <span id="player1Board" class="playerBoard active">-</span>
+                <span id="player2Board" class="playerBoard active">-</span></div> 
+            <div class="players">
+
+
+                <div id="player1">
+              <button id="rockBtn" class="dice">⛰️
+                </button></div>
+                <div id="player2">
+                    <button id="paperBtn" class="dice">📝</button> </div>
+                <div id="player2">
+              
+                    <button id="scissorBtn" class="dice">✂️</button>
+                </div>
+            </div>
+
+            <!-- <button id="rollBtn">Choose</button> -->
+            <button id="resetBtn">Reset Game 🔁</button>
+            <button id = "restartBtn"> Restart</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
